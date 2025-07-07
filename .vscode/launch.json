@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/mfussenegger/dapconfig-schema/master/dapconfig-schema.json",
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "codelldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/zig-out/bin/vulkan_things",
+            "preLaunchTask": "build-debug"
+        }
+    ]
+}
